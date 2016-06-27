@@ -25,3 +25,5 @@ Para fazer os desafios, siga os passos a seguir:
 - Crie um novo diretório, com o nome do seu username do github, em challenges/challenge/ (Ex: challenges/uber/mascosabb);
 - Faça o desafio, em seu diretório;
 -	E por fim, abra um Pull Request neste repositório, com o seu desafio feito.
+
+Inspirado no artigo [From Zero to Front-end Hero (Part 1)](https://medium.freecodecamp.com/from-zero-to-front-end-hero-part-1-7d4f7f0bff02#.1wojmrgph "From Zero to Front-end Hero (Part 1)") do [@jonathanzwhite](https://twitter.com/jonathanzwhite "@jonathanzwhite").
