@@ -1,0 +1,116 @@
+body{
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:220px;
+	background: #181C1F;
+}
+
+.road-map{
+	font-size:13.18px;
+	margin-left:132px;
+	width:80%;
+	height:115px;
+ 	position: relative;
+  	top: 40%;
+  	transform: translateY(-41%);
+
+}
+.road-map div{
+	float:left;
+	width:24%;
+	width:250px;
+	height:100%;
+	/*border:1px solid #Fff;*/
+}
+
+.road-map div{
+	border-right:1px dotted #666;
+	border-spacing: 5px;
+}
+
+.road-map div:last-child{
+	border:none;
+}
+
+.infos .logo{
+	width:198px;
+	height:25px;
+	display: inline-block;
+	background-image:url("../img/spacex.png");
+	background-repeat: no-repeat; 
+}
+
+.infos .logo, .infos p{
+	margin-left:20px;
+	color:#bdc3c7;
+	margin-bottom:8px;
+}
+
+.road-map .item-list{
+	text-transform: uppercase;
+	display: block;
+	padding-left:20px;
+	padding-bottom:10px;
+}
+
+.road-map .title{
+	color:#fff;
+	font-weight:bolder;
+}
+
+.item-list{
+	display: inline;
+	color:#8b939b;
+	padding:0px 9px 0px 9px;
+}
+
+.bottom{
+	font-size:13.17px;
+	background:#0e1112;
+	width:100%;
+	height:50px;
+	position:fixed;
+	bottom:0;
+	left:0;
+	text-transform: uppercase;
+}
+
+.bottom .item-list{
+	line-height: 55px;
+}
+
+.first{
+	border-right:1px solid #666;
+}
+
+.first,.last{
+	color:#666;
+}
+
+.first{
+	margin-left:143px;
+}
+
+.last{
+	float:right;
+	margin-right:165px;
+}
+
+.last:before{
+	content:"\00A9";
+	padding-right:3px;
+}
+
+.link{
+	color:#8b939b;
+	text-decoration:none; 
+}
+
+.link:hover{
+	text-decoration: underline;
+}
